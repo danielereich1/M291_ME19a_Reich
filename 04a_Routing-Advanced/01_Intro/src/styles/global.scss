@@ -1,0 +1,48 @@
+body {
+    font-family: 'Gadugi', Helvetica, Arial, sans-serif;
+    margin: 10%;
+    background-color: #F7F7F7;
+}
+
+h1 {
+    color: #00b4d8;
+}
+
+h2 {
+    font-weight: normal;
+    color: #494949;
+}
+
+#app {
+    font-family: 'Gadugi', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #494949;
+}
+
+#logo{
+    horiz-align: left;
+}
+
+.logo {
+    display: inline-block;
+    width: 100%;
+    max-width: 13vw;
+    padding-right: 5vw;
+    margin-left: 5vw;
+    //float: left;
+}
+
+#nav {
+    padding: 30px;
+}
+
+#nav a {
+    font-weight: bold;
+    color: #494949;
+}
+
+#nav a.router-link-exact-active {
+    color: #e63946;
+}
